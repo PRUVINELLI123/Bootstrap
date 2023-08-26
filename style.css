@@ -56,12 +56,15 @@ main {
     padding: 20px;
     text-align: center;
 }
-img {
-    right: 50px;
-    width: 40%;
-}
-h2 {
-    text-align: left;
+/* Seções */
+.musicas,
+.comidas,
+.lazer {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 p {
     text-align: left;
@@ -91,14 +94,13 @@ img {
     height: auto;
 }
 
-/* Imagens na seção 'inter' e 'campeao' */
-.inter img,
-.campeao img {
+/* Imagens na seção 'comidas' e 'lazer' */
+.comidas img,
+.lazer img {
     flex: 1;
     margin-right: 10px;
     border-radius: 5px;
 }
-
 
 /* Ícone do Instagram */
 .instagram {
