@@ -17,13 +17,6 @@ body {
     padding: 0;
 }
 
-/* Links */
-a {
-    text-decoration: none;
-    color: #007bff;
-    transition: color 0.3s ease-in-out;
-}
-
 a:hover {
     text-decoration: underline;
     color: #0056b3;
@@ -48,7 +41,6 @@ h1 {
     font-size: 2.5rem;
     margin-top: 10px;
 }
-
 /* Conteúdo Principal */
 main {
     max-width: 1200px;
@@ -65,9 +57,6 @@ main {
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-p {
-    text-align: left;
 }
 /* Títulos Secundários */
 h2 {
